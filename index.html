@@ -4,72 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishal Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
-    <h1>This vishal yadav</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, dignissimos laborum vel quaerat repudiandae dolorum.</p>
-    <hr>
-
-    <h2>@Typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sed!</p>
-    <small>Lorem ipsum dolor sit amet.</small>
-
-    <hr>
-
-    <h2>@Container</h2>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, illo.</div>
-
-    <hr>
-
-    <h2>@link</h2>
-    <a href="#">Link 1</a> <a href="#">Link 2</a>
-    <a href="https://google.com">Vishal</a>
-
-    <hr>
-    <h2>@unordered list</h2>
-    <ul>
-        <li>dhhd</li>
-        <li>dkhdk</li>
-    </ul>
-
-    <h2>@ordered list</h2>
-    <ol>
-        <li>dhfh</li>
-        <li>diiodj</li>
-    </ol>
-
-    <hr>
-    <h2>@Nav</h2>
-    <nav>
-        <div>
-            IamBrand
+    <nav class="navigation container">
+        <div class="nav-brand">
+            VISHAL YADAV
         </div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link " href="./projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">Signin</a>
-            </li>  <li>
-                <a href="/">Signup</a>
+            <li class="list-item-inline">
+                <a class="link" href="./blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-    <h2>@header</h2>
-    <header>
-        <img src="./img/react.svg" alt="" style="height:50vh ;width:50vw;">
+    <header class="hero">
+        <img class="hero-img" src="/img/wb.svg" alt="" style="height:50vh ;width:50vw;">
+        <h1 class="hero-heading">VISHAL YADAV <span class="heading-inverted">FRONT END DEVELOPER</span> </h1>
     </header>
-    
-    <div style="height:30vh">
+    <section class="section">
+        <div class="container container-center">
+            <h1>TECHNOLOGY | WORKON</h1>
+            <p>I am familiar and Current Working on Following Technologies
+            HTML,CSS,Javascript,Bootstrap,React Js,Rest Api,Git,Node Js,Express Js</p>
+        </div>
+    </section>
 
-    </div>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>PROJECTS I WORKED ON</h1>
+            <p>To See Project Please Click the below button:</p>
+            <a href="/projects.html" class="link link-primary">SEE PROJECTS</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>BLOGS</h1>
+            <p>To See More Blogs Please Click the below button:</p>
+            <a href="/blogs.html" class="link link-primary">SEE BLOGS</a>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <h3 class="footer-header">@2021-Copyright VISHAL YADAV. All Rights Reserved</h3>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"> <a class="link" href="https://github.com/iamvishaldev"><i class="fab fa-github fa-2x"></i></a></li>
+            <li  class="list-item-inline"> <a class="link" href="https://www.linkedin.com/in/vishal-yadav-5138391a0/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li  class="list-item-inline"> <a class="link" href="https://www.instagram.com/vishal_yadav16_/"><i class="fab fa-instagram fa-2x"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
